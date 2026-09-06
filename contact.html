@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Snazzy Paws Grooming</title>
+  <meta name="description" content="Find and contact Snazzy Paws Grooming, our Hamilton dog grooming salon.">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <p class="brand">Snazzy Paws Grooming</p>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="section" aria-labelledby="contact-heading">
+      <h1 id="contact-heading">Get in touch</h1>
+      <p class="page-intro">Find us in Hamilton, or send us a message and we'll get
+        back to you as soon as we can.</p>
+
+      <div class="contact-layout">
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps?q=Hamilton,New+Zealand&output=embed"
+            title="Map showing the location of Snazzy Paws Grooming in Hamilton"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <form class="form-card" action="#" onsubmit="return false;">
+          <fieldset>
+            <legend>Send us a message</legend>
+
+            <div class="form-field">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" name="contact-name" autocomplete="name" required>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-email">Email address</label>
+              <input type="email" id="contact-email" name="contact-email" autocomplete="email" required>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-phone">Phone number</label>
+              <input type="tel" id="contact-phone" name="contact-phone" autocomplete="tel">
+            </div>
+
+            <div class="form-field">
+              <label for="contact-comment">Comment</label>
+              <textarea id="contact-comment" name="contact-comment" rows="4" required></textarea>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="button">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Snazzy Paws Grooming, Hamilton</p>
+    <p>Opening hours: Monday&ndash;Saturday, 9am&ndash;5pm</p>
+  </footer>
+</body>
+</html>
